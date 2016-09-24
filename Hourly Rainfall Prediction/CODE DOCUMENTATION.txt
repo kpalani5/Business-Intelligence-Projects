@@ -1,0 +1,32 @@
+
+1. DataFormatConversion1 to 4 - Excel to .mat
+   train.mat
+   test.mat (Not used)
+
+2. MissingValues.m - Remove missing values in train.mat
+   latest.mat
+
+3. Boxplot.m - Remove noise in latest.mat
+   latest.mat
+	
+4. RegressionToClassification.m - Convert regression problem to classification problem in latest.mat
+   latest2.mat
+
+5. TrainingTestValidation.m - Split into training, test and validation data sets in latest2.mat
+   trainData.mat
+   testData.mat
+   validationData.mat
+
+6. Main.m, SprintClassifier.m, SprintAlgorithm.m, SprintSplit.m, ginisplit.m, gini.m 
+   SPRINT IMPLEMENTATION 
+
+7. TrainingTestValidationRegression.m - Split into training, test and validation sets for regression
+
+8. RandomForests.m, RandomForestsRegression.m 
+   RANDOM FORESTS IMPLEMENTATION
+
+9. AODE.m, find_probability.m, ProbCalc.m, rank.m
+   AODE IMPLEMENTATION
+
+10. All other matlab data files are results of the execution of different algorithms and their parameters.
+    These data files can be passed as input to Comparing.m (which includes Measures.m) to find all evaluation metrics.
